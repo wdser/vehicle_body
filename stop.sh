@@ -1,0 +1,1 @@
+kill $(ps -ef | grep vehicle_body | grep -v grep | awk '{print $2}')
